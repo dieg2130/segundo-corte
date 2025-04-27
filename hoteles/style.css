@@ -1,0 +1,98 @@
+/* ======= RESET & BASE ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+  }
+  
+  /* ======= NAVBAR ======= */
+  .navbar {
+    background-color: #1e1e2f;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #00d1ff !important;
+  }
+  
+  /* ======= CONTENEDOR GENERAL ======= */
+  .container {
+    margin-top: 40px;
+  }
+  
+  /* ======= TARJETAS ======= */
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+  }
+  
+  .card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* ======= TÍTULOS ======= */
+  h1, h2, h3 {
+    color: #1e1e2f;
+  }
+  
+  /* ======= BOTONES ======= */
+  .btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+    font-weight: 500;
+    border-radius: 8px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+  }
+  
+  /* ======= FOOTER ======= */
+  footer {
+    background-color: #1e1e2f;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.9rem;
+  }
+  
+  /* ======= TABLAS ======= */
+  .table {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table thead {
+    background-color: #4e73df;
+    color: #fff;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
